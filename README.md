@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @Heitor_rg
-- 👀 I’m interested in Learning LUA
-- 🌱 I’m currently learning C# and basic
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Hi, I’m @natoprogamador
+- 👀 I’m interested in be Dev JR
+- 🌱 I’m currently learning html, CSS, JS
+- 💞️ I’m looking to collaborate on Developing websites
+- 📫 How to reach me  ...
 
 <!---
 HeitorBalla/HeitorBalla is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
