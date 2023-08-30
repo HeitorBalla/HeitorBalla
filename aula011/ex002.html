@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Condições</title>
+</head>
+<body>
+    <main>
+
+    <h1>Site do Detran</h1>
+   Digite Sua Velocidade: <input type="number" name="txt1" id="txt1">
+   <input type="button" value="multaa" onclick="multa()">
+   <div id="v1">
+
+    
+   </div>
+
+      <script>
+        function multa() {
+            var txtv = document.getElementById('v1')
+            var velo = document.getElementById('txt1').value;
+           
+            txtv.innerHTML = ("<p> Sua velocidade foi de: " + velo +"Km/h </p>")
+            /* esse sinal tem que ser de igual para substituir os valores de um antigo pedido*/
+        
+            if (velo > 60){
+                txtv.innerHTML += ("<p>Você passou acima da velocidade <strong> Máxima</strong> <br> você foi <strong> Multado</strong> </p>")} 
+
+                else {
+                txtv.innerHTML +=("<p>Você está dentro da regulamentação</p>")
+        }
+        
+
+        txtv.innerHTML += ("<p>Dirija sepre com cinto de Segurança!</p>") 
+    }
+      </script>
+
+
+<hr>
+<p></p>
+
+<h1>nacionalidade</h1>
+    Qual o seu país: <input type="text" name="pais" id="pais">
+<input type="button" value="Verificar" onclick="verificar()">
+<div id="res"></div>
+    <script>
+        function verificar() {
+            var pais = document.getElementById("pais") //pegando valor digitado pelo usuario
+            var res = document.getElementById("res")
+            var pa = pais.value.toLowerCase
+           
+            
+            if (pa == 'brasil') {
+            res.innerText = ("você é Brasileiro")
+            } 
+            else {
+         res.innerText = ("Você é Estrangeiro")
+            }
+        }
+    </script>
+</main>
+</body>
+</html>

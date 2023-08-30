@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(45deg,  #5f0f40 ,/* #9a031e,#fb8b24,#e36414,*/ #0f4c5c );
+    background-attachment: fixed;
+}
+
+main {
+    background-color:white; /*Define a cor da caixinha*/
+    box-shadow: 5px 5px 5px black;/*Isso aqui é pra sombrear a Caixinha*/
+    border-radius: 10px;/*Isso arui é pra arredondar a borda criada por main*/ 
+    width: 600px;/*Tamanho da caixa*/
+    padding: 20px;/*Aumenta a area que ta sobrando*/
+    margin: auto;/*Isso Aqui é pra centralizar*/
+    
+}
+
+h1 {
+    color: #e36414;
+    text-align: center;
+    text-shadow: 1px 1px 1px /*O primeiro parametro define o quanto vai para o lado, o segundo para baixo e o 3º quando vai espalhar, o ultimo a cor da sombra*/#75340ccb;
+}
+
+h2 {
+    color:#201c18
+}
+
+p { 
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+
+
+
+/*div#area:hover {
+    color: #132277;
+    background-color:#3f0a14
+  }  */
+
+  main#calculadora {
+    margin-top: 60px;
+    background-color: rgb(153, 142, 142);
+    width: 350px;
+  }
+  
+  p#obs {
+    font-size: 0.9em;
+  }
